@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Controle de Gastos</string>
+    <string name="titMenu">Menu</string>
+    <string name="urlSite">blog: http://tudoqueeinteressante.blogspot.com/</string>
+    <string name="urlFacebook">facebook</string>
+    <string name="urlTwitter">twitter: @wagnersfc</string>
+    <string name="titCadDespesas">Cadastro de Despesas</string>
+    <string name="btnNovo">Novo</string>
+    <string name="btnExcluir">Apagar</string>
+    <string name="titDespesas">Nome da Despesa</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="titInsereDespesa">Inserir Despesa</string>
+    <string name="btnEditar">Editar</string>
+    <string name="titLancamentos">Lançamentos</string>
+    <string name="titInsereLancamento">Insere Lançamento</string>
+    <string name="titData">Data</string>
+    <string name="titValor">Valor</string>
+    <string name="titAlteraLancamento">Editar Lançamentos</string>
+    <string name="titDelLancamentos">Excluir Lançamento</string>
+</resources>

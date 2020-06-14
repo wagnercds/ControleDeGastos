@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.blogspot.tudoqueeinteressante.controlegastos" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="7"/>
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name="com.blogspot.tudoqueeinteressante.controlegastos.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <provider
+            android:authorities="com.blogspot.tudoqueeinteressante.controlegastos" android:name=".tblDespesas"/>        
+        <activity android:name=".CadastroDespesas"/>
+        <activity android:name=".InsAltDespesa"/>
+        <activity android:name=".CadastroLancamento"/>
+        <activity android:name=".InsAltLancamento"/>
+        <activity android:name=".ManLancamento"/>
+    </application>
+</manifest>
